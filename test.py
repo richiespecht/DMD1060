@@ -1,2 +1,2 @@
 #test
-print("Richie)
+print("Richie")

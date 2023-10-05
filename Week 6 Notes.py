@@ -13,10 +13,14 @@ print (num_list[0])     # Print the varible in the '0' index
 boo = str_list[2]       # Set a specific index to a variable
 print (boo)
 
-str_list[2] = "monkey"  # Changing a specific item in a list
+str_list[2] = "Monkey"  # Changing a specific item in a list
 print (str_list)
 
-str_list.append("monkey")     # puts an item at the end of a list
-str_list.insert(0, "monkey")  # inserts a item to the index called for
+str_list.append("Monkey")     # puts an item at the end of a list
+str_list.insert(0, "Monkey")  # inserts a item to the index called for
 str_list.remove("Mike")       # removes an item from the list
+str_list.pop()                # 
+boo = str_list.index("Mike")  # gives the index number of a specific item
+print (len(str_length))       # tells you the length of a list
+
 

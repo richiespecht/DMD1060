@@ -37,7 +37,7 @@ def grab(item_list):
 def edit(item_list):
     number = int(input("Number: "))
     if number < 1 or number > len(item_list):
-        print("Invalid item number.")
+        print("Invalid item number.\n")
     else:
         update = input("Updated Name: ")
         item_list[number-1] = update
@@ -46,7 +46,7 @@ def edit(item_list):
 def drop(item_list):
     number = int(input("Number: "))
     if number < 1 or number > len(item_list):
-        print("Invalid item number.")
+        print("Invalid item number.\n")
     else:
         item = item_list.pop(number-1)
         print(item + " was dropped.\n")

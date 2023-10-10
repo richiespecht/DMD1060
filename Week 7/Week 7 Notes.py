@@ -71,3 +71,27 @@ print (firstthree)
 
 
 
+
+inventory = ["staff", "robe"]
+chest = ["scroll", "pestle"]
+
+combined = inventory + chest
+print (combined)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

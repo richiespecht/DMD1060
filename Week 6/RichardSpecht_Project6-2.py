@@ -41,7 +41,7 @@ def edit(item_list):
     else:
         update = input("Updated Name: ")
         item_list[number-1] = update
-        print("Item number", number, " was updated.\n")
+        print("Item number", number, "was updated.\n")
 
 def drop(item_list):
     number = int(input("Number: "))
